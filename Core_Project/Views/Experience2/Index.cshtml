@@ -1,0 +1,80 @@
+﻿@using EntityLayer.Concrete
+@model List<Experience>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<br />
+<br />
+
+<div class="col-md-6">
+	<div class="p-2">
+		<button type="button" id="btngetlistall" class="btn btn-outline-primary">Verileri Getir</button>
+		<button type="button" id="btnadd" class="btn btn-outline-info">Kaydet</button>
+	</div>
+</div>
+
+<div class="p-2" id="listexperience"></div>
+
+<br />
+
+<div class="col-md-12">
+	<input type="text" class="form-control" id="inpname" placeholder="Başlık" />
+	<br />
+	<input type="text" class="form-control" id="inpdate" placeholder="Tarih" />
+	<br />
+	<input type="text" class="form-control" id="inpdescription" placeholder="Açıklama" />
+	<br />
+	<input type="text" class="form-control" id="inpimage" placeholder="Görsel Yolu" />
+	<br />
+</div>
+
+@section Scripts
+{
+	<script>
+		$("#btngetlistall").click(function (){
+			$.ajax({
+				contentType:"application/json",
+				dataType:"json",
+				type:"Get",
+				url:"/Experience2/ListExperience/",
+
+				success: function(funk){
+					 let values= jQuery.parseJSON(funk);
+					 console.log(values);
+
+					 let htmlst="<table class=table table-bordered> <tr> <th> ID </th> <th> Başlık </th> <th> Tarih </th> </tr>";
+					 $.each(values,(index,value)=>{
+						 htmlst+=`<tr> <td>${value.ExperienceId}</td> <td>${value.Name}</td> <td>${value.Date}</td> </tr>`
+					 });
+					 htmlst +="</table>";
+					 $("#listexperience").html(htmlst);
+
+				}
+			});
+		});
+
+		$("#btnadd").click(function (){
+			let values = {
+				Name: $("#inpname").val(),
+				Date: $("#inpdate").val(),
+				Description: $("#inpdescription").val(),
+				ImageUrl: $("#inpimage").val()
+			};
+			$.ajax({
+				type: "Post",
+				url: "/Experience2/AddExperience/",
+				data: values,
+				success: function(funk1){
+					let result = jQuery.parseJSON(funk1);
+					alert("Başarılı şekilde eklendi.");
+				}
+			});
+		});
+	</script>
+
+}
+<script src ="~/lib/jquery/dist/jquery.js"></script>
+

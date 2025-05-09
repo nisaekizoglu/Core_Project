@@ -1,0 +1,17 @@
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAcce.E67BD773.Up2Date
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\NİSA\Source\Repos\Core_Project\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

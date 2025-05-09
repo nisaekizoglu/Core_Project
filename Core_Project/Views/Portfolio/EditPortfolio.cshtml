@@ -1,0 +1,51 @@
+﻿@model EntityLayer.Concrete.Portfolio
+@{
+    ViewData["Title"] = "EditPortfolio";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("EditPortfolio", "Portfolio", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.PortfolioId)
+    <br />
+    <br />
+    <br />
+    @Html.Label("Proje Başlığı")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    <label>Görsel 1</label>
+    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+    <br />
+    <label>Görsel 2</label>
+    @Html.TextBoxFor(x => x.ImageUrl2, new { @class = "form-control" })
+    <br />
+    <label>Proje Görseli 1</label>
+    @Html.TextBoxFor(x => x.Image1, new { @class = "form-control" })
+    <br />
+    <label>Proje Görseli 2</label>
+    @Html.TextBoxFor(x => x.Image2, new { @class = "form-control" })
+    <br />
+    <label>Proje Görseli 3</label>
+    @Html.TextBoxFor(x => x.Image3, new { @class = "form-control" })
+    <br />
+    <label>Proje Görseli 4</label>
+    @Html.TextBoxFor(x => x.Image4, new { @class = "form-control" })
+    <br />
+    <label>Proje Url</label>
+    @Html.TextBoxFor(x => x.ProjectUrl, new { @class = "form-control" })
+    <br />
+    <label>Platform</label>
+    @Html.TextBoxFor(x => x.Platform, new { @class = "form-control" })
+    <br />
+    <label>Ücret</label>
+    @Html.TextAreaFor(x => x.Price, 10, 3, new { @class = "form-control" })
+    <br />
+    <label>Tamamlanma Oranı</label>
+    @Html.TextBoxFor(x => x.Value, new { @class = "form-control" })
+    <br />
+    <label>Aktif/Pasif</label>
+    @Html.TextBoxFor(x => x.Status, new { @class = "form-control" })
+    <br />
+    <button class="btn" style="color:white;background-color:#44bd32">Güncelle</button>
+}
+
