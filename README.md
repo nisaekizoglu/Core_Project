@@ -2,7 +2,7 @@
 
 ### **PROJE AÇIKLAMASI** 
 
-**🟣 Bu projede kişinin kendi kişisel web sitesinin dinamik bir şekilde oluşturabilmesi amaçlanmıştır. Portfolya kısmını admin paneli ve yazar paneli destelemektedir.**
+**🟣 Bu projede kullanıcının kişisel web sitesinin dinamik bir şekilde oluşturabilmesi amaçlanmıştır. Portfolya kısmını admin paneli ve yazar paneli destelemektedir.**
 
 ### **PORTFOLYO**
 
