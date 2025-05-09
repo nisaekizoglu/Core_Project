@@ -40,6 +40,8 @@
 
 **✔️ Ajax**
 
+**✔️ Error Page**
+
 **✔️ Restful Api**
 
 **✔️ MSSQL**
